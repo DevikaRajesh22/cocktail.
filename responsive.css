@@ -1,0 +1,10 @@
+@media screen and(max-width:1400px){
+.image img{
+    width: 35rem !important;
+    
+}
+
+.slide{
+    height: 300px;
+}
+}

@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 
 @media (max-width:991px){
@@ -12,14 +13,6 @@ body{
 img.slide{
     height: 700px;
 }
-
-html {
-    height: 110%;
-    margin-bottom: 0.01em;
-}
-html, body{
-    overflow:initial !important;
-  }
 
 .image img{
     height: 30rem;
