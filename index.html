@@ -2,65 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X -UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>Cocktail.</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X -UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Cocktail.</title>
 </head>
 
 <body class="vh-100 overflow-hidden">
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <div class="container">
-            <!--logo-->
-            <a class="navbar-brand fs-4" href="#">Cocktail.</a>
-            <!--toggle btton-->
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--side bar-->
-            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <!--side bar header-->
-                <div class="offcanvas-header text-white border-bottom">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cocktail.</h5>
-                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <!--side bar body-->
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#products">Products</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container">
+      <!--logo-->
+      <a class="navbar-brand fs-4" href="#">Cocktail.</a>
+      <!--toggle btton-->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--side bar-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!--side bar header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cocktail.</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-    </nav>
-<!--carousel-->
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <!--side bar body-->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--carousel-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -94,29 +97,109 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-<!--order section-->
-<h1 class="text-center">Order your drinks now</h1>
-<div class="container">
-    <div class="row">
+  <!--order section-->
+  <section id="products">
+    <h1 class="text-center" style="color: wheat; font-size: 25px;">Order your drinks now</h1>
+    <div class="container">
+      <div class="row">
         <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/raspberrychampagne.png" class="card-img-top" alt="raspberry champagne">
+            <div class="card-body">
+              <h5 class="card-title">Raspberry champagne</h5>
+              <p class="card-text text-danger">$150</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/seabreezecock.jpg" class="card-img-top" alt="sea breeeze cocktail">
+            <div class="card-body">
+              <h5 class="card-title">Sea Breeeze Cocktail</h5>
+              <p class="card-text text-danger">$160</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/strawberrycock.jpg" class="card-img-top" alt="strawberry cocktail">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry Cocktail</h5>
+              <p class="card-text text-danger">$120</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/zombiecock.png" class="card-img-top" alt="zombie cocktail">
+            <div class="card-body">
+              <h5 class="card-title">Zombie Cocktail</h5>
+              <p class="card-text text-danger">$170</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/hurricane cocktail.jpg" class="card-img-top" alt="hurricane cocktail">
+            <div class="card-body">
+              <h5 class="card-title">Hurricane Cocktail</h5>
+              <p class="card-text text-danger">$110</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/cherrylimeteq.jpg" class="card-img-top" alt="cherry lime tequila">
+            <div class="card-body">
+              <h5 class="card-title">herry Lime Tequila</h5>
+              <p class="card-text text-danger">$120</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+            <div class="card text-center" style="width: 18rem">
+                <img src="/images/caramelvodka.jpg" class="card-img-top" alt="caramel vodka drink">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Caramel Vodka Drink</h5>
+                  <p class="card-text text-danger">$190</p>
+                  <a href="#" class="btn btn-dark">Order Now</a>
                 </div>
               </div>
         </div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/grapefruitmar.png" class="card-img-top" alt="Grapefruit Margarita">
+            <div class="card-body">
+              <h5 class="card-title">Grapefruit Margarita</h5>
+              <p class="card-text text-danger">$200</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center" style="width: 18rem">
+            <img src="/images/rainbowcock.jpg" class="card-img-top" alt="Rainbow Cocktail">
+            <div class="card-body">
+              <h5 class="card-title">Rainbow Cocktail</h5>
+              <p class="card-text text-danger">$120</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
     </div>
-</div>
+    </div>
+  </section>
 </body>
 
 </html>
