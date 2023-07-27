@@ -25,6 +25,7 @@ img.slide{
 
 .card:hover {
     transform: scale(1.1);
+    z-index: 1;
   }
   .card {
     transition: transform 0.5s;
