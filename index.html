@@ -44,6 +44,9 @@
             <li class="nav-item mx-2">
               <a class="nav-link" href="#location">Location</a>
             </li>
+            <li class="nav-item mx-2">
+              <button type="button" class="btn orderBtn btn-outline-light loginBtn">Login</button>
+            </li>
           </ul>
         </div>
       </div>
@@ -104,7 +107,7 @@
           <div class="card-body">
             <h5 class="card-title">Raspberry champagne</h5>
             <p class="card-text text-danger">$150</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -114,7 +117,7 @@
           <div class="card-body">
             <h5 class="card-title">Sea Breeeze Cocktail</h5>
             <p class="card-text text-danger">$160</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -124,7 +127,7 @@
           <div class="card-body">
             <h5 class="card-title">Strawberry Cocktail</h5>
             <p class="card-text text-danger">$120</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -136,7 +139,7 @@
           <div class="card-body">
             <h5 class="card-title">Zombie Cocktail</h5>
             <p class="card-text text-danger">$170</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -146,7 +149,7 @@
           <div class="card-body">
             <h5 class="card-title">Hurricane Cocktail</h5>
             <p class="card-text text-danger">$110</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -156,7 +159,7 @@
           <div class="card-body">
             <h5 class="card-title">herry Lime Tequila</h5>
             <p class="card-text text-danger">$120</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -168,7 +171,7 @@
           <div class="card-body">
             <h5 class="card-title">Caramel Vodka Drink</h5>
             <p class="card-text text-danger">$190</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -178,7 +181,7 @@
           <div class="card-body">
             <h5 class="card-title">Grapefruit Margarita</h5>
             <p class="card-text text-danger">$200</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -188,7 +191,7 @@
           <div class="card-body">
             <h5 class="card-title">Rainbow Cocktail</h5>
             <p class="card-text text-danger">$120</p>
-            <button type="button" class="btn btn-outline-dark" onclick="btnClick()">Order Now</button>
+            <button type="button" class="btn orderBtn btn-outline-dark">Order Now</button>
           </div>
         </div>
       </div>
@@ -215,9 +218,33 @@
   </div>
 </footer>
 
+<!--form-->
+
+<div class="model">
+  <div class="model-box">
+    <div class="model-body">
+      <h3>Order your product</h3>
+      <form>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <p><a href="#">Forgot your email or password</a></p>
+        <button class="btn btn-dark">Log In</button>
+      </form>
+    </div>
+    <img class="close" src="close.svg" alt="close" />
+  </div>
+</div>
+
 <!--scripts-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
   crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
